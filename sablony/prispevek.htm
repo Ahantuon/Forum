@@ -1,0 +1,7 @@
+<div class="row">
+      <div class="col-md-* prispevek">
+        <h4>{{ predmet | raw }} <small><a class="pull-right mezera-left glyphicon glyphicon-remove {{ smazat }}" href="index.php?pg=diskuze&action=smazat_go&id={{ idSmazat }}&where=prispevek"></a></small><small class="pull-right">{{ datum | raw }}</small><small class="pull-right mezera"><b>{{ autor | raw }}</b></small></h4>
+        {{ obsah | raw }} 
+        <b><a class="pull-right gray-color {{ reagovat }}" href="index.php?pg=diskuze&id={{ id }}" role="button">Reagovat</a></b>
+      </div>
+    </div>

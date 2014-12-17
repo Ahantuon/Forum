@@ -1,0 +1,12 @@
+  <br/>
+  <form role="form" method="POST" action='index.php?pg=upravit&&action={{ akce }}'>
+    <div class="form-group">
+      <label for="exampleInputNazev">Název</label>
+      <input value="{{ nazev | raw }}" type="text" class="form-control" name="nazev" placeholder="Název">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputObsah">Obsah</label>
+      <textarea type="text" class="form-control" rows="25" name="obsah" placeholder="Obsah">{{ obsah | raw }}</textarea> 
+    </div>
+    <button type="submit" class="btn btn-default pull-right">{{ udelej | raw }}</button>
+  </form>

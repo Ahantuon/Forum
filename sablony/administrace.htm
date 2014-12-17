@@ -1,0 +1,13 @@
+<tr>
+  <td>
+    {{ id }}
+  </td>
+  <td>
+    {{ prvni | raw }}
+  </td>
+  <td>
+    {{ druhy | raw }}
+  <a class='pull-right mezera-left glyphicon glyphicon-remove' href='index.php?pg=administrace&action=smazat_go&id={{ id }}&where={{ where }}'></a>
+  <a class='pull-right mezera-left glyphicon glyphicon-pencil' href='index.php?pg=upravit&id={{ id }}&where={{ where }}'></a>
+  </td>
+</tr>

@@ -1,0 +1,90 @@
+
+a:focus{
+  outline: none;
+}
+a:hover{
+  text-decoration: none;
+  color: DarkRed ;
+}
+a{
+  color: black;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+span.glyphicon {
+    font-size: 1.4em;
+}
+
+.glyphicon-small{
+    font-size: 0.6em;
+}
+
+.gray-color{
+  color: #505050;
+}
+
+.prispevek {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;  
+  margin-top: 8px;   
+  border: 1px #E0E0E0 solid;  
+  border-left: 5px #9E2A2B solid;
+  background-color: #eaeaea;
+}
+
+.hidden{
+  display: none;
+}
+
+.vertical-center{
+  vertical-align: middle;
+}
+
+.reakce {   
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px; 
+  border: 1px #E0E0E0 solid;  
+  border-left: 5px #9E2A2B solid;
+  background-color: #F5F5F5;
+}
+
+.black-center{
+  color: black;
+  text-align: center;
+}
+
+.align-right{
+  margin-right: 0px;
+}
+
+.mezera{
+  padding-right: 10px;
+}
+
+.mezera-left{
+  padding-left: 10px;
+}
+
+.mezera-bottom{
+  padding-bottom: 10px;
+}
+
+.smallWidth{
+  padding-top: 10px;
+  width: 350px;
+}
+
+.centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.paddingSmallRight{
+  padding-right: 20px;
+}
